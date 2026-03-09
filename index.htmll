@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Demo Wallet</title>
+
+<style>
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background:#eef2f7;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+.phone{
+width:360px;
+background:white;
+border-radius:25px;
+overflow:hidden;
+box-shadow:0 15px 35px rgba(0,0,0,0.25);
+}
+
+.header{
+background:#1b5e20;
+color:white;
+padding:25px;
+text-align:center;
+}
+
+.balance{
+font-size:38px;
+font-weight:bold;
+margin-top:10px;
+}
+
+.actions{
+display:flex;
+justify-content:space-around;
+padding:20px;
+}
+
+.action{
+background:#f3f5f8;
+padding:12px;
+border-radius:12px;
+width:80px;
+text-align:center;
+font-size:13px;
+}
+
+.section{
+padding:20px;
+}
+
+.tx{
+display:flex;
+justify-content:space-between;
+margin-bottom:12px;
+font-size:14px;
+}
+
+.footer{
+text-align:center;
+font-size:12px;
+color:red;
+padding:10px;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="phone">
+
+<div class="header">
+<h3>Demo Wallet</h3>
+<p>Available Balance</p>
+<div class="balance">₱431,000</div>
+</div>
+
+<div class="actions">
+<div class="action">Send</div>
+<div class="action">Receive</div>
+<div class="action">History</div>
+</div>
+
+<div class="section">
+<strong>Recent Transactions</strong>
+
+<div class="tx">
+<span>Deposit</span>
+<span>+ ₱10,000</span>
+</div>
+
+<div class="tx">
+<span>Transfer</span>
+<span>- ₱2,500</span>
+</div>
+
+<div class="tx">
+<span>Payment</span>
+<span>- ₱1,200</span>
+</div>
+
+</div>
+
+<div class="footer">
+Demo page – not a real wallet
+</div>
+
+</div>
+
+</body>
+</html>
